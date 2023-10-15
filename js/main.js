@@ -1,13 +1,13 @@
 var myNum = 10;
-var myString = 'строка';
+var myStr = 'строка';
 var myBool = true;
-var myArray = [1,2,3,4,5];
-var myObj = {first: "first name", last:'last name'};
+var myArr = [1,2,3,4,5];
+var myObj = {first: "First Name", last: "Last Name"};
 
 console.log (myNum);
-console.log (myString);
+console.log (myStr);
 console.log (myBool);
-console.log (myArray);
+console.log (myArr);
 console.log (myObj);
 
 var decimal2 = (myNum.toFixed(2));
@@ -16,8 +16,10 @@ console.log (decimal2);
 
 var i = 5;
 
+console.log(++i);
 console.log(i++);
-console.log(i);
+console.log(--i);
+console.log(i--);
 
 var myTest = 20;
 
@@ -40,13 +42,13 @@ console.log('%=', myTest);
 var myPi = Math.PI; 
 console.log('myPi:', myPi);
 
-var myRound = Math.round(23.1231243446)
+var myRound = Math.round(89.1231243446)
 console.log('myRound:', myRound)
 
 var myRandom = Math.random() * 10
 console.log('myRandom:',myRandom)
 
-var myPow = Math.pow(2, 7); 
+var myPow = Math.pow(3, 5); 
 console.log('myPow:', myPow);
 
 var strObj = {str: 'Мама мыла раму, рама мыла маму'};
@@ -63,5 +65,5 @@ strReplace = strReplace.replace('рама', 'Рама');
 strReplace = strReplace.replace('мыла', 'держит');
 console.log('strReplace:', strReplace);
 
-console.log(myString.toUpperCase())
-console.log(myString.toLowerCase())
+console.log(myStr.toUpperCase())
+console.log(myStr.toLowerCase())
